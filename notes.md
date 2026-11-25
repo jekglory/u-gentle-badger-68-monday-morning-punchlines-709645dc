@@ -34,5 +34,15 @@ Run twice, byte-identical.
 - [x] Commit b5424bf1c40f7d153457de7d98a5d1d25335e578 pushed to main;
       README (3 make.fun badges) + About (description, homepage, topics
       makefun/ai-agents/bounties/growth) set and verified via GitHub API
-- [ ] Bundle + kit check 0 FAIL
-- [ ] Submitted; submission ID + claim code reported to parent
+- [x] Bundle + kit check: bundle-u-gentle-badger-68-monday-morning-punchlines-709645dc.tar.gz
+      (126,725 bytes, sha256 fb3d36cf119aa9c77ec7c7c1c81810c1152757921b4187a93bc9d44187c7306e,
+      1 session, 42 turns). Kit check on commit 931e50e: 13 passed, 1 failed,
+      5 skipped, 5 at-submission. ONLY failure: thinking_priced — 0 usage rows,
+      because a subagent's usage rows are written only when its run completes.
+      All other gates pass: reproduces 86.8% (53/61 lines), turns 33, revised 3
+      writes, own-work 53/61, run record matches.
+- [ ] SUBMIT BLOCKED on thinking_priced only: do NOT submit until the builder
+      run completes and the usage rows are attached (re-bundle with
+      --muse-usage, re-check, then submit). Next turn in this same session:
+      fetch rows for agent 0b19290c-8a98-4aa9-a3ba-d48cc6e5af36, re-bundle,
+      re-check, submit commit (latest pushed HEAD).
