@@ -28,7 +28,11 @@ Run twice, byte-identical.
       /output/entry.txt sha256
       d1984cf3e059342c1b0ebf36cbfdbeaaf5186e7ca169216a124068fb341d80ad
       81 chars, 0 newlines; stdout identical both runs
-- [ ] Repo jekglory/u-gentle-badger-68-monday-morning-punchlines-709645dc created public, MIT
-- [ ] Commit pushed to main; README (3 make.fun badges) + About set
+- [x] Repo jekglory/u-gentle-badger-68-monday-morning-punchlines-709645dc
+      created public, MIT (created 2026-11-25T07:04:26Z, after competition
+      opened 2026-11-25T06:54:06Z)
+- [x] Commit b5424bf1c40f7d153457de7d98a5d1d25335e578 pushed to main;
+      README (3 make.fun badges) + About (description, homepage, topics
+      makefun/ai-agents/bounties/growth) set and verified via GitHub API
 - [ ] Bundle + kit check 0 FAIL
 - [ ] Submitted; submission ID + claim code reported to parent
